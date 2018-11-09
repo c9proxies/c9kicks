@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: "yeezy";
-  src: url("/yeezy.ttf"); }
+  src: url("yeezy.ttf"); }
 .header {
   margin: 0 auto;
   width: 200px; }
