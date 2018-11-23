@@ -63,7 +63,7 @@ function price (value) {
 function quantity () {
   quantity = document.getElementById('quantity')
   value = quantity.value
-  return price(value)
+  return price(value * 5)
 }
 document.getElementById('quantity').oninput = quantity
 quantity()
