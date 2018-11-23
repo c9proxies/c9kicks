@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Nike SB Diamond Dunk</title>
+    <meta name="description" content="high speed residential proxies">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="post">
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="product">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="AMTZ79M6YY4QS">
+
+     <h1>Residential NIKE Proxies | Jordan 1</h1>
+      <p>24 Nov 2018 - c9kicks</p>
+
+      <img src="11-24-jordan1.jpg" alt="image" />
+
+    <ul>
+      <li>3 hour residential proxies</li>
+      <li>unlimited bandwidth</li>
+      <li>delivered 2 hours before release</li>
+      <li>New York / Chicago regions</li>
+      <li>work on Supreme, Footlocker, Footaction, Champs, Shopify, Nike, Adidas, SNKRS</li>
+    </ul>
+    <h1 id="price" class="yeezy-text">Price:</h1>
+
+
+      <div>
+        <h1 class="yeezy-text">Region</h1>
+
+        <select name="os1" id="region" class="select">
+          <option value="New York">New York</option>
+          <option value="Chicago">Chicago</option>
+        </select>
+      </div>
+
+      <div>
+        <h1 class="yeezy-text">Quantity</h1>
+
+        <select name="os0" id="quantity" class="select">
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="75">75</option>
+          <option value="100">100</option>
+        </select>
+      </div>
+
+      <input type="hidden" name="currency_code" value="USD">
+
+      <br><br>
+      <button id="submit" name="submit">Add to cart</input>
+    </form>
+  </body>
+  <script>
+function price (value) {
+  document.getElementById('price').innerHTML = "Price: $" + value
+}
+function quantity () {
+  quantity = document.getElementById('quantity')
+  value = quantity.value
+  switch(value) {
+    case '25':
+      return price(7)
+    case '50':
+      return price(18)
+    case '75':
+      return price(25)
+    case '100':
+      return price(30)
+  }
+}
+document.getElementById('quantity').oninput = quantity
+quantity()
+</script>
+</html>
